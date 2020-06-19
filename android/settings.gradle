@@ -1,0 +1,11 @@
+rootProject.name = 'doogetherTestNotif'
+include ':react-native-bambuser-player'
+project(':react-native-bambuser-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bambuser-player/android')
+include ':react-native-bambuser-broadcaster'
+project(':react-native-bambuser-broadcaster').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bambuser-broadcaster/android')
+include ':react-native-bambuser-broadcaster'
+project(':react-native-bambuser-broadcaster').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bambuser-broadcaster/android')
+include ':react-native-bambuser-broadcaster'
+project(':react-native-bambuser-broadcaster').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bambuser-broadcaster/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app', ':libbambuser'

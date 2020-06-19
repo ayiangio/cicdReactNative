@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "311660867010",
+    "firebase_url": "https://test-3224b.firebaseio.com",
+    "project_id": "test-3224b",
+    "storage_bucket": "test-3224b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311660867010:android:d4bd43f36aff4890b57a5b",
+        "android_client_info": {
+          "package_name": "com.doogethertestnotif"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311660867010-ehmt1sv2m1n0bfbb2l58rfhm1vqemnd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doogethertestnotif",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "311660867010-hiim21h1g2oqsubgfmvvlnkprjs3r0lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAhDRbjZA_h2q4gqi1rGjbXUAYKvoSajQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311660867010-hiim21h1g2oqsubgfmvvlnkprjs3r0lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
