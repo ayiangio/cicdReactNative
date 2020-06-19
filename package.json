@@ -19,7 +19,7 @@
     "react": "16.11.0",
     "react-native": "0.62.2",
     "react-native-bambuser-broadcaster": "0.0.17",
-    "react-native-bambuser-player": "0.0.18",
+    "react-native-bambuser-player": "0.0.19",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-reanimated": "^1.9.0",
     "react-native-safe-area-context": "^0.7.3",
