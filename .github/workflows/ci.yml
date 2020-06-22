@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install npm dependencies
         run: |
-          cat ${{ secrets.TEST }}
+          pwd ${{ secrets.TEST }}
       
       # - name: Make gradlew executable
       #   run: cd android && chmod +x ./gradlew
