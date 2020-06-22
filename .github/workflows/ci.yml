@@ -18,7 +18,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v2
       - name: Install npm dependencies
-      - env:
+        env:
           LARGE_SECRET_PASSPHRASE: ${{ secrets.TEST }}
         run: |
           cat LARGE_SECRET_PASSPHRASE
