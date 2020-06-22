@@ -18,10 +18,8 @@ jobs:
     steps: 
       - uses: actions/checkout@v2
       - name: Install npm dependencies
-        env:
-          LARGE_SECRET_PASSPHRASE: ${{ secrets.TEST }}
         run: |
-          cat LARGE_SECRET_PASSPHRASE
+          cat ${{ secrets.TEST }}
       
       # - name: Make gradlew executable
       #   run: cd android && chmod +x ./gradlew
